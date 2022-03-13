@@ -1,11 +1,16 @@
 {
-  "name": "farcaster_api_js",
-  "version": "1.0.0",
-  "description": "Js API for Farcaster",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "mhaas_eth",
-  "license": "ISC"
+    "name": "farcaster_api_js",
+    "version": "1.1.1",
+    "description": "Js API for Farcaster",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "mhaas_eth",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.26.1",
+        "web3": "^1.7.1"
+    }
 }
